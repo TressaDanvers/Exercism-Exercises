@@ -17,6 +17,9 @@ ASANFLAGS  = -fsanitize=address
 ASANFLAGS += -fno-common
 ASANFLAGS += -fno-omit-frame-pointer
 
+.PHONY: all
+all: test memcheck
+
 .PHONY: test
 test: tests.out
 	@./tests.out
