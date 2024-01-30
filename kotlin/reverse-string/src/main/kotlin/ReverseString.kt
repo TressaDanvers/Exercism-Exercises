@@ -1,3 +1,1 @@
-fun reverse(input: String): String {
-    TODO("Implement this function to complete the task")
-}
+fun reverse(input: String) = input.reversed()
