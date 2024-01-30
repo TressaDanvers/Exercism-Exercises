@@ -2,6 +2,7 @@
 data/
 .gradle/
 build/
+cmake-*/
 
 *.o
 *.out
