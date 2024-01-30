@@ -3,5 +3,5 @@ data/
 .gradle/
 build/
 
-.o
-.out
+*.o
+*.out
