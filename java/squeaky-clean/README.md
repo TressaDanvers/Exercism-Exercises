@@ -12,8 +12,6 @@ The Java `char` type represents the smallest addressable components of text.
 Multiple `char`s can comprise a string such as `"word"` or `char`s can be processed independently.
 Their literals have single quotes e.g. `'A'`.
 
-Java `char`s support Unicode encoding so in addition to the Latin character set pretty much all the writing systems in use worldwide can be represented, e.g. the Greek letter `'β'`.
-
 There are many builtin library methods to inspect and manipulate `char`s.
 These can be found as static methods of the `java.lang.Character` class.
 
@@ -40,22 +38,23 @@ SqueakyClean.clean("my   Id");
 // => "my___Id"
 ```
 
-## 2. Replace control characters with the upper case string "CTRL"
-
-Modify the (_static_) `SqueakyClean.clean()` method to replace control characters with the upper case string `"CTRL"`.
-
-```java
-SqueakyClean.clean("my\0Id");
-// => "myCTRLId",
-```
-
-## 3. Convert kebab-case to camelCase
+## 2. Convert kebab-case to camelCase
 
 Modify the (_static_) `SqueakyClean.clean()` method to convert kebab-case to camelCase.
 
 ```java
-SqueakyClean.clean("à-ḃç");
-// => "àḂç"
+SqueakyClean.clean("a-bc");
+// => "aBc"
+```
+
+## 3. Convert leetspeak to normal text
+
+Modify the (_static_) `SqueakyClean.clean()` method to convert [leetspeak][leet-speak] to normal text.
+For simplicity we will only be using `4`, `3`, `0`, `1` and `7` from the table.
+
+```java
+SqueakyClean.clean("H3ll0 W0rld");
+// => "Hello_World"
 ```
 
 ## 4. Omit characters that are not letters
@@ -63,21 +62,19 @@ SqueakyClean.clean("à-ḃç");
 Modify the (_static_) `SqueakyClean.clean()` method to omit any characters that are not letters.
 
 ```java
-SqueakyClean.clean("a1😀2😀3😀b");
+SqueakyClean.clean("a$#.b");
 // => "ab"
 ```
 
-## 5. Omit Greek lower case letters
-
-Modify the (_static_) `SqueakyClean.clean()` method to omit any Greek letters in the range 'α' to 'ω'.
-
-```java
-SqueakyClean.clean("MyΟβιεγτFinder");
-// => "MyΟFinder"
-```
+[leet-speak]: https://en.wikipedia.org/wiki/Leet
 
 ## Source
 
 ### Created by
 
 - @ystromm
+
+### Contributed to by
+
+- @sanderploegsma
+- @manumafe98
