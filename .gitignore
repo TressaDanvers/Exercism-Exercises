@@ -5,5 +5,3 @@ build/
 
 *.o
 *.out
-
-test-framework/unity.*
