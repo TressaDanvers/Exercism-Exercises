@@ -5,3 +5,7 @@ build/
 
 *.o
 *.out
+
+test-framework/unity.c
+test-framework/unity.h
+test-framework/unity_internals.h
