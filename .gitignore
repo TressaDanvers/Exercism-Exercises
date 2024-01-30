@@ -5,3 +5,7 @@ build/
 
 *.o
 *.out
+
+unity.c
+unity.h
+unity_internals.h
