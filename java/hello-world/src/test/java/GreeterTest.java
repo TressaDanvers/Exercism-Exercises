@@ -1,12 +1,10 @@
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GreeterTest {
-
-    @Test
-    public void testThatGreeterReturnsTheCorrectGreeting() {
-        assertThat(new Greeter().getGreeting()).isEqualTo("Hello, World!");
-    }
-
+  @Test
+  public void greeterGetGreetingReturnsExpectedValue() {
+    assertEquals("Hello, World!", new Greeter().getGreeting());
+  }
 }
