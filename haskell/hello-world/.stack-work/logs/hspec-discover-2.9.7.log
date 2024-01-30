@@ -1,0 +1,15 @@
+Configuring hspec-discover-2.9.7...
+Preprocessing library for hspec-discover-2.9.7..
+Building library for hspec-discover-2.9.7..
+[1 of 4] Compiling Paths_hspec_discover
+[2 of 4] Compiling Test.Hspec.Discover.Config
+[3 of 4] Compiling Test.Hspec.Discover.Sort
+[4 of 4] Compiling Test.Hspec.Discover.Run
+Preprocessing executable 'hspec-discover' for hspec-discover-2.9.7..
+Building executable 'hspec-discover' for hspec-discover-2.9.7..
+[1 of 2] Compiling Main
+[2 of 2] Compiling Paths_hspec_discover
+Linking .stack-work/dist/x86_64-linux-tinfo6/ghc-9.2.7/build/hspec-discover/hspec-discover ...
+Installing library in /home/tressa/.stack/snapshots/x86_64-linux-tinfo6/b1793cae9edbee0d9089d4bedb4d43475dc8373e0ef382fbb26a45fbb437cff9/9.2.7/lib/x86_64-linux-ghc-9.2.7/hspec-discover-2.9.7-G6Vto7m4JRcDmAko2pMBBi
+Installing executable hspec-discover in /home/tressa/.stack/snapshots/x86_64-linux-tinfo6/b1793cae9edbee0d9089d4bedb4d43475dc8373e0ef382fbb26a45fbb437cff9/9.2.7/bin
+Registering library for hspec-discover-2.9.7..

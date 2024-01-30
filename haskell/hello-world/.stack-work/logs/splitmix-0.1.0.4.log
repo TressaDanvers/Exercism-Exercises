@@ -1,0 +1,9 @@
+Configuring splitmix-0.1.0.4...
+Preprocessing library for splitmix-0.1.0.4..
+Building library for splitmix-0.1.0.4..
+[1 of 4] Compiling Data.Bits.Compat
+[2 of 4] Compiling System.Random.SplitMix.Init
+[3 of 4] Compiling System.Random.SplitMix
+[4 of 4] Compiling System.Random.SplitMix32
+Installing library in /home/tressa/.stack/snapshots/x86_64-linux-tinfo6/b1793cae9edbee0d9089d4bedb4d43475dc8373e0ef382fbb26a45fbb437cff9/9.2.7/lib/x86_64-linux-ghc-9.2.7/splitmix-0.1.0.4-BqggfipavUf9C9meSItXas
+Registering library for splitmix-0.1.0.4..

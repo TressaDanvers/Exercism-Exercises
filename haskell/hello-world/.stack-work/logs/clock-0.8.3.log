@@ -1,0 +1,7 @@
+Configuring clock-0.8.3...
+Preprocessing library for clock-0.8.3..
+Building library for clock-0.8.3..
+[1 of 2] Compiling System.Clock
+[2 of 2] Compiling System.Clock.Seconds
+Installing library in /home/tressa/.stack/snapshots/x86_64-linux-tinfo6/b1793cae9edbee0d9089d4bedb4d43475dc8373e0ef382fbb26a45fbb437cff9/9.2.7/lib/x86_64-linux-ghc-9.2.7/clock-0.8.3-GASYEQb09B45CthJ34NM1M
+Registering library for clock-0.8.3..

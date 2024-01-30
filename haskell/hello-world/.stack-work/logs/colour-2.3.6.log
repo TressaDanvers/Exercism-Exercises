@@ -1,0 +1,19 @@
+Configuring colour-2.3.6...
+Preprocessing library for colour-2.3.6..
+Building library for colour-2.3.6..
+[ 1 of 14] Compiling Data.Colour.CIE.Chromaticity
+[ 2 of 14] Compiling Data.Colour.CIE.Illuminant
+[ 3 of 14] Compiling Data.Colour.Chan
+[ 4 of 14] Compiling Data.Colour.Internal
+[ 5 of 14] Compiling Data.Colour.Matrix
+[ 6 of 14] Compiling Data.Colour.RGB
+[ 7 of 14] Compiling Data.Colour.RGBSpace.HSL
+[ 8 of 14] Compiling Data.Colour.RGBSpace.HSV
+[ 9 of 14] Compiling Data.Colour.SRGB.Linear
+[10 of 14] Compiling Data.Colour.RGBSpace
+[11 of 14] Compiling Data.Colour.SRGB
+[12 of 14] Compiling Data.Colour
+[13 of 14] Compiling Data.Colour.Names
+[14 of 14] Compiling Data.Colour.CIE
+Installing library in /home/tressa/.stack/snapshots/x86_64-linux-tinfo6/b1793cae9edbee0d9089d4bedb4d43475dc8373e0ef382fbb26a45fbb437cff9/9.2.7/lib/x86_64-linux-ghc-9.2.7/colour-2.3.6-9Flkk1pUiR57nwp1ltUbyz
+Registering library for colour-2.3.6..

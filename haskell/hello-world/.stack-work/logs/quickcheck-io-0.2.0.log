@@ -1,0 +1,7 @@
+Configuring quickcheck-io-0.2.0...
+Preprocessing library for quickcheck-io-0.2.0..
+Building library for quickcheck-io-0.2.0..
+[1 of 2] Compiling Paths_quickcheck_io
+[2 of 2] Compiling Test.QuickCheck.IO
+Installing library in /home/tressa/.stack/snapshots/x86_64-linux-tinfo6/b1793cae9edbee0d9089d4bedb4d43475dc8373e0ef382fbb26a45fbb437cff9/9.2.7/lib/x86_64-linux-ghc-9.2.7/quickcheck-io-0.2.0-DkeX1L711pPEOCkfVlZLuO
+Registering library for quickcheck-io-0.2.0..
