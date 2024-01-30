@@ -1,3 +1,6 @@
 [submodule "c/unity-test-framework"]
 	path = c/unity-test-framework
 	url = https://github.com/ThrowTheSwitch/Unity.git
+[submodule "cpp/catch2-test-framework"]
+	path = cpp/catch2-test-framework
+	url = https://github.com/catchorg/Catch2.git
