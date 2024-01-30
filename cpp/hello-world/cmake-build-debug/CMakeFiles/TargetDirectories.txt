@@ -1,4 +1,0 @@
-/home/tressa/projects/exercism/cpp/hello-world/cmake-build-debug/CMakeFiles/hello-world.dir
-/home/tressa/projects/exercism/cpp/hello-world/cmake-build-debug/CMakeFiles/test_hello-world.dir
-/home/tressa/projects/exercism/cpp/hello-world/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/tressa/projects/exercism/cpp/hello-world/cmake-build-debug/CMakeFiles/rebuild_cache.dir
