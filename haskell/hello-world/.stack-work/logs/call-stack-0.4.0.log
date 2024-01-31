@@ -1,8 +1,0 @@
-Configuring call-stack-0.4.0...
-Preprocessing library for call-stack-0.4.0..
-Building library for call-stack-0.4.0..
-[1 of 3] Compiling Data.SrcLoc
-[2 of 3] Compiling Data.CallStack
-[3 of 3] Compiling Paths_call_stack
-Installing library in /home/tressa/.stack/snapshots/x86_64-linux-tinfo6/b1793cae9edbee0d9089d4bedb4d43475dc8373e0ef382fbb26a45fbb437cff9/9.2.7/lib/x86_64-linux-ghc-9.2.7/call-stack-0.4.0-IMwEyMKUWi374Iju6AMdwQ
-Registering library for call-stack-0.4.0..

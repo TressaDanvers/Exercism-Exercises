@@ -1,9 +1,0 @@
-Configuring ansi-terminal-0.11.4...
-Preprocessing library for ansi-terminal-0.11.4..
-Building library for ansi-terminal-0.11.4..
-[1 of 4] Compiling System.Console.ANSI.Types
-[2 of 4] Compiling System.Console.ANSI.Codes
-[3 of 4] Compiling System.Console.ANSI.Unix
-[4 of 4] Compiling System.Console.ANSI
-Installing library in /home/tressa/.stack/snapshots/x86_64-linux-tinfo6/b1793cae9edbee0d9089d4bedb4d43475dc8373e0ef382fbb26a45fbb437cff9/9.2.7/lib/x86_64-linux-ghc-9.2.7/ansi-terminal-0.11.4-GSeWaXM29JWDtAKmITWS9o
-Registering library for ansi-terminal-0.11.4..
