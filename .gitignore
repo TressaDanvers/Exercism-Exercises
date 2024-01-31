@@ -1,7 +1,10 @@
 .idea/
-data/
 .gradle/
+.stack-work/
+
+data/
 build/
+out/
 cmake-*/
 
 *.o
