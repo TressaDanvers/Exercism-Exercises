@@ -1,0 +1,14 @@
+/home/tressa/.stack/programs/x86_64-linux/ghc-tinfo6-9.2.7/lib/ghc-9.2.7/include/ghcversion.h:
+  hash: d590b76d2d5f98f01894882dc106d920a101f52edb6a09b9a7f8dc701b075565
+? /home/tressa/projects/exercism/haskell/hello-world/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.2.7/build/test/autogen/Paths_hello_world.hs
+: hash: b4ae8998d388a2338fdc7a2207e5bc07b635b02346ec0c1a80007b787ada1625
+? /home/tressa/projects/exercism/haskell/hello-world/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.2.7/build/test/autogen/cabal_macros.h
+: hash: f4134911762028e49934a4448725206133ca631e077fcc8aa6fedb7cf38bdff6
+/home/tressa/projects/exercism/haskell/hello-world/hello-world.cabal:
+  hash: fe1baa0e7a5908c95e131eae8b51c074fabdbc42675bac37bc948aac69481b89
+/home/tressa/projects/exercism/haskell/hello-world/package.yaml:
+  hash: 160a1a88b7a5bd0f6f1ffd3e24f56cbba5e4d4fbd7f76ea73d649199ca9d76a5
+/home/tressa/projects/exercism/haskell/hello-world/test/Tests.hs:
+  hash: e3c9948060203a794b444e4596c90a63085f60817a31e9d626c9a3191142e0e5
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3

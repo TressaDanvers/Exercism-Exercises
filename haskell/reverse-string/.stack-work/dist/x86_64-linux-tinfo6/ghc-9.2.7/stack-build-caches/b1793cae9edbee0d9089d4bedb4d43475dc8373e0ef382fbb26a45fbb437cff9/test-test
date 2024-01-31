@@ -1,0 +1,14 @@
+/home/tressa/.stack/programs/x86_64-linux/ghc-tinfo6-9.2.7/lib/ghc-9.2.7/include/ghcversion.h:
+  hash: d590b76d2d5f98f01894882dc106d920a101f52edb6a09b9a7f8dc701b075565
+? /home/tressa/projects/exercism/haskell/reverse-string/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.2.7/build/test/autogen/Paths_reverse_string.hs
+: hash: 6df17230c83f4fef32c011b3b1dcf151139e0dc1910879df50d6b42d0148cd01
+? /home/tressa/projects/exercism/haskell/reverse-string/.stack-work/dist/x86_64-linux-tinfo6/ghc-9.2.7/build/test/autogen/cabal_macros.h
+: hash: fa61b07e0ba70da175094e4ec075502bbe26d9de48216cd3f4ee174d767f44de
+/home/tressa/projects/exercism/haskell/reverse-string/package.yaml:
+  hash: b890e1480b3250833d7ab93c04b7bd4033e0b9cbfeb80993edf2f6d8ec141585
+/home/tressa/projects/exercism/haskell/reverse-string/reverse-string.cabal:
+  hash: 06e53c3c47c15f609cfebe0838351f089fd57ad3c30326c7018e073a85d34fde
+/home/tressa/projects/exercism/haskell/reverse-string/test/Tests.hs:
+  hash: eebd1102b600e9983bfbfb9f06c9ca3ce3f8cb206d758c7ef4f12fd9b650b1c2
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3
