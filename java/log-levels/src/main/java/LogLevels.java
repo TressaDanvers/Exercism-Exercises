@@ -9,13 +9,13 @@ public class LogLevels {
 
   public static String logLevel(String logLine) {
     var matcher = Pattern
-        .compile("^\\[(INFO|WARNING|ERROR)]:.*", Pattern.DOTALL)
-        .matcher(logLine);
+      .compile("^\\[(INFO|WARNING|ERROR)]:.*", Pattern.DOTALL)
+      .matcher(logLine);
     if (!matcher.matches())
       throw new IllegalArgumentException("\"" + logLine + "\" does not contain a log-level tag.");
     else return matcher
-        .group(1)
-        .toLowerCase();
+      .group(1)
+      .toLowerCase();
   }
 
   public static String reformat(String logLine) {
