@@ -1,11 +1,14 @@
 .idea/
 .gradle/
 .stack-work/
+.clj-kondo/
+.lsp/
 
 data/
 build/
 out/
 cmake-*/
+target/
 
 *.o
 *.out
