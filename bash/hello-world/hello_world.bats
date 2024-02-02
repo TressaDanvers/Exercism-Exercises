@@ -1,6 +1,6 @@
 #!/usr/bin/env bats
-load ../.bats-test-framework/assert/load.bash
-load ../.bats-test-framework/support/load.bash
+load ../../.test-frameworks/bats/assert/load.bash
+load ../../.test-frameworks/bats/support/load.bash
 
 # local version: 1.1.0.0
 

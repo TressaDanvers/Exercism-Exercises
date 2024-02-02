@@ -5,8 +5,8 @@
 	path = cpp/catch2-test-framework
 	url = https://github.com/catchorg/Catch2.git
 [submodule "bash/.bats-test-framework/support"]
-	path = bash/.bats-test-framework/support
+	path = .test-frameworks/bats/support
 	url = https://github.com/bats-core/bats-support.git
 [submodule "bash/.bats-test-framework/assert"]
-	path = bash/.bats-test-framework/assert
+	path = .test-frameworks/bats/assert
 	url = https://github.com/bats-core/bats-assert.git
