@@ -1,7 +1,15 @@
-=begin
-Write your code for the 'Raindrops' exercise in this file. Make the tests in
-`raindrops_test.rb` pass.
-
-To get started with TDD, see the `README.md` file in your
-`ruby/raindrops` directory.
-=end
+class Raindrops
+  # @return [String]
+  def self.convert(i)
+    running = ""
+    if i % 3 == 0
+      running += "Pling" end
+    if i % 5 == 0
+      running += "Plang" end
+    if i % 7 == 0
+      running += "Plong" end
+    if running == ""
+      running += String(i) end
+    running
+  end
+end
