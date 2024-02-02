@@ -9,4 +9,44 @@
 .globl is_leap_year
 
 is_leap_year:
-        jr $ra
+
+  # $a0 mod 4 -> $t2
+  move $t0, $a0
+  li $t1, 4
+  div $t0, $t1
+  mfhi $t2
+
+  # $t2 == 0 jump to is_not_leap_year
+  bnez $t2, is_not_leap_year
+
+  # $a0 mod 100 -> $t2
+  move $t0, $a0
+  li $t1, 100
+  div $t0, $t1
+  mfhi $t2
+
+  # $t2 != 0 jump to may_be_leap_year
+  beqz $t2, may_be_leap_year
+
+is_actually_leap_year:
+
+  # return 1
+  li $v0, 1
+  jr $ra
+
+may_be_leap_year:
+
+  # $a0 mod 400 -> $t2
+  move $t0, $a0
+  li $t1, 400
+  div $t0, $t1
+  mfhi $t2
+
+  # $t2 == 0 jump to is_actually_leap_year
+  beqz $t2, is_actually_leap_year
+
+is_not_leap_year:
+
+  # return 0
+  li $v0, 0
+  jr $ra
