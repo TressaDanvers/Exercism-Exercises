@@ -2,7 +2,7 @@
 	path = .test-frameworks/unity
 	url = https://github.com/ThrowTheSwitch/Unity.git
 [submodule "cpp/catch2-test-framework"]
-	path = cpp/catch2-test-framework
+	path = .test-frameworks/catch2
 	url = https://github.com/catchorg/Catch2.git
 [submodule "bash/.bats-test-framework/support"]
 	path = .test-frameworks/bats/support
