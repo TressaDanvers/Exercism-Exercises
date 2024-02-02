@@ -1,4 +1,9 @@
 (ns leap)
 
+(defn- divides? [a, b]
+  (zero? (mod a b)))
+
 (defn leap-year? [year]
-  (and (= (mod year 4) 0) (or (not= (mod year 100) 0) (= (mod year 400) 0))))
+  (and (divides? year 4)
+       (or (not (divides? year 100))
+           (divides? year 400))))
