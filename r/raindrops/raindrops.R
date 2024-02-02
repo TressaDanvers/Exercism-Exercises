@@ -1,8 +1,6 @@
-raindrops <- function(number) {
-  running <- ""
-  if (number %% 3 == 0) running <- "Pling"
-  if (number %% 5 == 0) running <- sprintf("%s%s", running, "Plang")
-  if (number %% 7 == 0) running <- sprintf("%s%s", running, "Plong")
-  if (running == "") running <- sprintf("%i", number)
-  return (running)
+raindrops <- \(number) {
+  ifblank <- \(.s, alternative) ifelse(.s == "", alternative, .s)
+  ifelse(number %% c(3, 5, 7) == 0, c("Pling", "Plang", "Plong"), "") |>
+    paste(collapse = '') |>
+    ifblank(as.character(number))
 }
